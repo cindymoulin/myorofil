@@ -1,0 +1,77 @@
+h1{
+	color: #105E62;
+	font-size: 60px;
+	font-family: raleway
+}
+h2{
+	color: #105E62;
+	font-size: 30px;
+	font-family: raleway
+}
+h3{
+	color: #105E62;
+	font-size: 18px;
+	font-family: raleway
+}
+li{
+	color: #105E62;
+	font-size: 15px;
+	font-family: raleway
+}
+body{
+	background-color: #bad7df;
+	font-size: 30px;
+	line-height: 1.8;
+	letter-spacing: 0.10px;
+}
+.card{
+	margin: 0px  0px;
+	padding: 0px 0px;
+	align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+	box-shadow: 6px 8px 6px rgba(0,0,0,0.4);
+	border-radius: 150px;
+	margin: 0 40px;
+
+}
+.thing{
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 8px 50px rgba(0,0,0,0.4);
+	background-color: #f5f5f5;
+}
+#new{
+	margin: 20px;
+	padding: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 8px 50px rgba(0,0,0,0.4);
+	background-image: url(light.jpg);
+}
+.cardish{
+	margin: 5px;
+	justify-content: center;
+	display: flex;
+}
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
